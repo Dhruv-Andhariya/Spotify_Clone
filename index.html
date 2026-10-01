@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>'Spotify - Web Player: Music for everyone'</title>
+</head>
+
+<body>
+    <header class="flex">
+        <div class="nav flex">
+            <img class="filter" src="logo.svg" alt="">
+            <img class="home" src="home.svg" alt="">
+            <div class="Search flex">
+                <img class="search" src="search.svg" alt="" ><span>Search</span>
+            </div>
+            <img class="filter hamburger" src="hamburger.svg" alt="">
+        </div>
+        <div class="butten flex">
+            
+            <button class="special">Support</button>
+            <button class="special">Download</button>
+            <button class="special">Premium</button>
+            <button class="special">Insatall App</button>
+            <button class="special">Sign up</button>
+            <button class="common">Log in</button>
+        </div>
+    </header>
+    <div class="container flex">
+        <div class="left">
+            <div class="library">
+                <div class="heading">
+                    <img class="filter" src="library.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                    <div class="close">
+                        <img  class="filter" src="close.svg" alt="">
+                    </div>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">Legal</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">Safety &
+                            Privacy Center</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">Privacy
+                            Policy</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">About
+                            Ads</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/"
+                            data-encore-id="textLink">Accessibility</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="playlist">
+                <h2 class="sp">Spotify Playlist</h2>
+                <div class="cardcontainer flex">
+                    
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+                        <div class="songbutton">
+                            <img id="prev" src="previous.svg" alt="">
+                            <img id="play" src="paused.svg" alt="">
+                            <img id="Next" src="next.svg" alt="">
+                        </div>
+                        <div class="songtime"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
